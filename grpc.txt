@@ -1,0 +1,23 @@
+CUSTOMBUILD : error : RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8) [C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\grpc-populate.vcxproj]
+CUSTOMBUILD : error : 58084 bytes of body are still expected [C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\grpc-populate.vcxproj]
+  fetch-pack: unexpected disconnect while reading sideband packet
+  fatal: early EOF
+  fatal: fetch-pack: invalid index-pack output
+  -- Had to git clone more than once: 3 times.
+  CMake Error at grpc-subbuild/grpc-populate-prefix/tmp/grpc-populate-gitclone.cmake:39 (message):
+    Failed to clone repository: 'https://github.com/grpc/grpc'
+
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(249,5): error MSB8066: пользовательская сборка для "C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-mkdir.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-download.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-update.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-patch.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-configure.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-build.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-install.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-test.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\0fa3536f546851375ae7fa0a2d2b56ad\grpc-populate-complete.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\2ccdd8e7323cb929e71fcd5b77f2bdb7\grpc-populate.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeLists.txt" завершила работу с кодом 1. [C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\grpc-populate.vcxproj]
+CMake Error at C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FetchContent.cmake:1622 (message):
+  Build step for grpc failed: 1
+Call Stack (most recent call first):
+  C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FetchContent.cmake:1762:EVAL:2 (__FetchContent_directPopulate)
+  C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FetchContent.cmake:1762 (cmake_language)
+  C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FetchContent.cmake:1976 (FetchContent_Populate)
+  CMakeLists.txt:15 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
+
+C:\Users\Денис\Desktop\RPC\build>
