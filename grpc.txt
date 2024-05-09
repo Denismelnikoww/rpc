@@ -1,11 +1,55 @@
-CUSTOMBUILD : error : RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8) [C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\grpc-populate.vcxproj]
-CUSTOMBUILD : error : 58084 bytes of body are still expected [C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\grpc-populate.vcxproj]
-  fetch-pack: unexpected disconnect while reading sideband packet
-  fatal: early EOF
-  fatal: fetch-pack: invalid index-pack output
-  -- Had to git clone more than once: 3 times.
-  CMake Error at grpc-subbuild/grpc-populate-prefix/tmp/grpc-populate-gitclone.cmake:39 (message):
-    Failed to clone repository: 'https://github.com/grpc/grpc'
+ Resolving deltas: 100% (610362/610362), done.
+  HEAD is now at f78a54c5ad Bump release version 202402201104 (#35951)
+  Submodule 'third_party/abseil-cpp' (https://github.com/abseil/abseil-cpp.git) registered for path 'third_party/abseil-cpp'
+  Submodule 'third_party/benchmark' (https://github.com/google/benchmark) registered for path 'third_party/benchmark'
+  Submodule 'third_party/bloaty' (https://github.com/google/bloaty.git) registered for path 'third_party/bloaty'
+  Submodule 'third_party/boringssl-with-bazel' (https://github.com/google/boringssl.git) registered for path 'third_party/boringssl-with-bazel'
+  Submodule 'third_party/cares/cares' (https://github.com/c-ares/c-ares.git) registered for path 'third_party/cares/cares'
+  Submodule 'third_party/envoy-api' (https://github.com/envoyproxy/data-plane-api.git) registered for path 'third_party/envoy-api'
+  Submodule 'third_party/googleapis' (https://github.com/googleapis/googleapis.git) registered for path 'third_party/googleapis'
+  Submodule 'third_party/googletest' (https://github.com/google/googletest.git) registered for path 'third_party/googletest'
+  Submodule 'third_party/opencensus-proto' (https://github.com/census-instrumentation/opencensus-proto.git) registered for path 'third_party/opencensus-proto'
+  Submodule 'third_party/opentelemetry' (https://github.com/open-telemetry/opentelemetry-proto.git) registered for path 'third_party/opentelemetry'
+  Submodule 'third_party/protobuf' (https://github.com/protocolbuffers/protobuf.git) registered for path 'third_party/protobuf'
+  Submodule 'third_party/protoc-gen-validate' (https://github.com/envoyproxy/protoc-gen-validate.git) registered for path 'third_party/protoc-gen-validate'
+  Submodule 'third_party/re2' (https://github.com/google/re2.git) registered for path 'third_party/re2'
+  Submodule 'third_party/xds' (https://github.com/cncf/xds.git) registered for path 'third_party/xds'
+  Submodule 'third_party/zlib' (https://github.com/madler/zlib) registered for path 'third_party/zlib'
+  Cloning into 'C:/Users/тХи╨дтХитХбтХитХЬтХитХХтХд╨С/Desktop/RPC/build/_deps/grpc-src/third_party/abseil-cpp'...
+  Cloning into 'C:/Users/тХи╨дтХитХбтХитХЬтХитХХтХд╨С/Desktop/RPC/build/_deps/grpc-src/third_party/benchmark'...
+  Cloning into 'C:/Users/тХи╨дтХитХбтХитХЬтХитХХтХд╨С/Desktop/RPC/build/_deps/grpc-src/third_party/bloaty'...
+  Cloning into 'C:/Users/тХи╨дтХитХбтХитХЬтХитХХтХд╨С/Desktop/RPC/build/_deps/grpc-src/third_party/boringssl-with-bazel'...
+  fatal: not a git repository: 'C:/Users/тХи╨дтХитХбтХитХЬтХитХХтХд╨С/Desktop/RPC/build/_deps/grpc-src/.git/modules/third_party/boringssl-with-bazel'
+  fatal: remote did not send all necessary objects
+  fatal: clone of 'https://github.com/google/boringssl.git' into submodule path 'C:/Users/тХи╨дтХитХбтХитХЬтХитХХтХд╨С/Desktop/RPC/build/_deps/grpc-src/third_party/boringssl-with-bazel' failed
+  Failed to clone 'third_party/boringssl-with-bazel'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/cares/cares'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/envoy-api'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/googleapis'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/googletest'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/opencensus-proto'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/opentelemetry'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/protobuf'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/protoc-gen-validate'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/re2'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/xds'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/zlib'. Retry scheduled
+  fatal: not a git repository (or any of the parent directories): .git
+  Failed to clone 'third_party/boringssl-with-bazel' a second time, aborting
+  CMake Error at grpc-subbuild/grpc-populate-prefix/tmp/grpc-populate-gitclone.cmake:62 (message):
+    Failed to update submodules in:
+    'C:/Users/╨Ф╨╡╨╜╨╕╤Б/Desktop/RPC/build/_deps/grpc-src'
 
 
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(249,5): error MSB8066: пользовательская сборка для "C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-mkdir.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-download.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-update.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-patch.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-configure.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-build.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-install.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\5cc6cc8602224fd2bd890fb020378a90\grpc-populate-test.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\0fa3536f546851375ae7fa0a2d2b56ad\grpc-populate-complete.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeFiles\2ccdd8e7323cb929e71fcd5b77f2bdb7\grpc-populate.rule;C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\CMakeLists.txt" завершила работу с кодом 1. [C:\Users\Денис\Desktop\RPC\build\_deps\grpc-subbuild\grpc-populate.vcxproj]
@@ -19,5 +63,3 @@ Call Stack (most recent call first):
 
 
 -- Configuring incomplete, errors occurred!
-
-C:\Users\Денис\Desktop\RPC\build>
